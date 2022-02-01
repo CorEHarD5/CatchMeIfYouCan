@@ -65,7 +65,7 @@ Nuestro personaje se encuentra siempre en una posición estática en la cual sol
    ![Start-Voice](./gif/StartVoice.gif)
 
 #### Interfaz de usuario:
-   ![Interfaz](./img/Interfaz.png)
+   ![Interfaz](./img/Interfaz.PNG)
   1. Brujula: Nos ayuda a conocer nuestra orientación espacial dentro del juego.
   2. Puntuación y número de disparos: Indican la evolución de la partida actual.
   3. Menú: Se encuentra en el cielo de la escena y está compuesto por varios botones que nos permiten iniciar la detección de voz, reiniciar la partida y cerrar la aplicación.
@@ -75,7 +75,7 @@ Nuestro personaje se encuentra siempre en una posición estática en la cual sol
 
 ### Descripción del mapa
 Nos encontramos en el centro de una ciudad donde los enemigos están escondidos en distintos puntos de la misma.
-   ![Ciudad](./img/Ciudad.png)
+   ![Ciudad](./img/Ciudad.PNG)
 
 <br>
 
