@@ -3,9 +3,8 @@
 - Universidad de La Laguna
 - **Asignatura:** Interfaces Inteligentes
 - **Trabajo Final de Asignatura:** juego en realidad virtual con *Unity 3D*
-![CatchMeIfYouCan](./img/CatchMeIfYouCan.png)
 
-<br>
+![CatchMeIfYouCan](./img/CatchMeIfYouCan.png)
 
 ## Índice <!-- omit in toc -->
 
@@ -52,11 +51,14 @@ Nuestro personaje se encuentra siempre en una posición estática en la cual sol
 - Controles físicos:
    > Los botones señalados son los que realizan la acción de disparar.
 
+   - Mando de Xbox One
    ![Xbox-One-Controller](./img/XboxOneController.png)
+   - Mando de PS4
    ![PS4-Controller](./img/PS4Controller.png)
 
-   > Como al tocar la pantalla también se realiza dicha acción, el botón del cardboar también sirve para ello.
+   > Como al tocar la pantalla también se realiza dicha acción, el botón del cardboard también sirve para ello.
 
+   - Visor cardboard
    ![Cardboard](./img/Cardboard.png)
 
 - Control por voz:
@@ -117,6 +119,7 @@ Se ha hecho uso de distintos assets creados por la comunidad y/o disponibles en 
 - Para su correcta visualización es necesario disponer de un dispositivo VR de tipo cardboard en el que insertar el teléfono que ejecuta la aplicación.
 - Para hacer uso del reconocimiento de voz es necesario asignar previamente los permisos de acceso al micrófono (Da problemas con algunos dispositivos dependiendo de la versión de android que disponga). Como alternativa, se pueden realizar los disparos con el uso del botón del que disponen algunas versiones del cardboard, el cual funciona realizando pulsaciones en la pantalla; o de un mando externo conectado al dispositivo, ya sea por Bluetooth o por cable.
 
+<br>
 
 ## Hitos de programación logrados
 - Speech Recognizer para disparar sin necesidad de un mando físico.
