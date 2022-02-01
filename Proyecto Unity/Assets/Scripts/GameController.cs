@@ -8,7 +8,7 @@ public class GameController : MonoBehaviour {
     public static GameController gameController;
 
     private bool isGameFinished;
-    
+
     private int maxScore;
     private int correction;
     private int nShoots;
@@ -27,7 +27,7 @@ public class GameController : MonoBehaviour {
     public Transform fireworkLocalization3;
     public Transform fireworkLocalization4;
     public Transform fireworkLocalization5;
-    
+
     public Text scoreText;
     public Text shootsText;
     public Text endGameText;
@@ -107,11 +107,11 @@ public class GameController : MonoBehaviour {
         livingRobbers = maxRobbers;
         scoreText.text = "Puntuación: 0";
         shootsText.text = "Disparos: 0";
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("MainScene");
     }
 
     void EndGame() {
-        // TODO: Fireworks 
+        // TODO: Fireworks
         endGameText.text = "¡Felicidades!\n¡La ciudad está limpia de malandros!";
         Instantiate(fireworkPrefab1, fireworkLocalization1.position, fireworkLocalization1.rotation);
         Instantiate(fireworkPrefab2, fireworkLocalization2.position, fireworkLocalization2.rotation);
